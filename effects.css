@@ -119,3 +119,46 @@
         transform: rotate(0);
     }
 }
+
+/* esercizio 12 */
+
+.ex-12-top-white {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin{
+    0% {
+        left: 0%;
+    }
+
+    50% {
+        left: 60%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+.ex-12-bottom-white {
+    animation: spin-2 1s linear infinite;
+}
+
+@keyframes spin-2{
+    0% {
+        right: 0%;
+    }
+
+    50% {
+        right: 60%;
+    }
+
+    100% {
+        right: 0%;
+    }
+}
+
+/* esercizio 13 */
+
+
+
