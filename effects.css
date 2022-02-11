@@ -40,3 +40,30 @@
 
 /* esercizio 5 */
 
+.ex-5-square:hover {
+    transform: scale(1.5);
+}
+
+.ex-5-square:active {
+    transform: scale(0.5);
+}
+
+/* esercizio 6 */
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/* esercizio 7 */
+
+.ex-7-img{
+    transition: 3s;
+}
+
+
+.ex-7-img:hover {
+    filter: blur(3px) sepia(1);
+}
+
+
+
