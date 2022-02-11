@@ -65,5 +65,17 @@
     filter: blur(3px) sepia(1);
 }
 
+/* esercizio 8 */
 
+.ex-8-img{
+    filter: brightness(0.8) saturate(1.5);
+    border-radius: 20px;
+}
 
+/* esercizio 9 */
+
+.ex-9-img{
+    filter: drop-shadow(2px 4px 6px black) sepia(1);
+    border-radius: 20px;
+    transform: scale(0.8);
+}
